@@ -1,0 +1,12 @@
+@import './styles/reset.scss';
+@import './styles/vars.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  font-size: 16px;
+}
