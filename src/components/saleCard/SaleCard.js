@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line import/no-unresolved
+import './styles.scss';
 
 const SaleCard = () => (
   <>
@@ -9,6 +11,7 @@ const SaleCard = () => (
       <div className="sale-card__info">
         <h4>Title</h4>
         <p>Location</p>
+        <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
